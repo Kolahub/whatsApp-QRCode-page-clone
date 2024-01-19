@@ -1,0 +1,208 @@
+* {
+margin: 0;
+padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    background-color: #F0F2F5;
+}
+header {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 22rem;
+    background-color: #00A884;
+}
+.header--content {
+    display: flex;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+    transform: translateY(3rem);
+}
+.img--box {
+    margin-right: 1.3rem;
+    img {
+        width: 4rem;
+    }
+}
+.text--box {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header--attachment {
+    background: white;
+    max-width: 100rem;
+    padding-top: 4rem;
+    margin: 0 auto;
+    transform: translateY(-12rem);
+    border-radius: .5rem;
+    box-shadow: 0 1.6rem 1.2rem rgba(0, 0, 0, .3);
+
+    @media only screen and (max-width: 56.25em) {
+        max-width: 60rem;
+    }
+}
+.ha--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+    border: .15rem solid rgb(219, 219, 219);
+    padding: 1.8rem 3.5rem ;
+
+    @media only screen and (max-width: 56.25rem) {
+        max-width: 45rem;
+        padding: 1rem 1.5rem ;
+        }
+}
+.top--img {
+    img {
+        width: 9rem;
+        @media only screen and (max-width: 56.25rem) { 
+            margin-right: .5rem;
+        }
+    }
+}
+.top--text {
+    p {
+        font-size: 1.8rem;
+        @media only screen and (max-width: 56.25rem) { 
+            font-size: 1.6rem;
+        }
+    }
+    span {
+        display: block;
+        font-size: 1.4rem;
+        @media only screen and (max-width: 56.25rem) { 
+            font-size: 1rem;
+        }
+    }
+}
+.top--button {
+    background-color: #008069;
+    height: 4rem;
+    line-height: 4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+
+    @media only screen and (max-width: 56.25rem) { 
+        font-size: 1.2rem;
+    }
+}
+.ha--middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    max-width: 85rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+    @media only screen and (max-width: 56.25rem) {
+            flex-direction: column;
+            align-items: center;
+    }
+}
+.how {
+    p {
+        font-size: 2.8rem;
+        font-weight: 100;
+    }
+
+    ol {
+        display: block;
+        margin-top: 5rem;
+
+        li {
+            font-size: 1.8rem;
+            font-weight: 100;
+            line-height: 2.5;
+
+            img {
+                width: 2.5rem;
+                transform: translateY(.4rem);
+            }
+        }
+    }
+}
+
+.qrCode {
+    img {
+        width: 26rem;
+    }
+
+    @media only screen and (max-width: 56.25rem) { 
+        margin-top: 3rem;
+    }
+}
+
+.line {
+    max-width: 85rem;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgb(231, 231, 231);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.linkNoCon {
+    max-width: 85rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color:  #008069;
+    }
+
+    @media only screen and (max-width: 56.25rem) {  
+        max-width: 20rem;
+    }
+}
+
+.ha--bottom {
+    background-color: #F9F9FA;
+    padding: 5rem 0;
+    width: 100%;
+}
+
+.tutorial--text {
+    max-width: 70rem !important;
+    margin: 0 auto;
+    p {
+        font-size: 2.7rem;
+        font-weight: 200;
+        text-align: center;
+    }
+    span {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color:  #008069;
+        margin-top: 1rem;
+    }
+}
+.tutorial--video {
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        @media only screen and (max-width: 56.25rem) {
+        width: 48rem;
+        }
+    }
+}
